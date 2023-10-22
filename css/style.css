@@ -109,11 +109,47 @@ footer {
         grid-template-areas: "header header header" "main main main" "footer footer footer";
     }
 
-
     .navigasjon {
         display: flex;
         gap: 30px;
-    
-    
 }
+
+    #mobil-bilde {
+        display: none;
+}
+
+    #mobil-bilde2 {
+        display: none;
+    }
+
+    #desktop-bilde {
+        display: block;
+    }
+
+    section {
+        position: absolute;
+        top: 35%;
+        left: 42%;
+        background-color: transparent;
+    }
+
+    section h1 {
+        color: black;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    section h2 {
+        color: black;
+        padding: 0;
+        margin: 0;
+    }
+
+    #desktop-photos {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
 }
