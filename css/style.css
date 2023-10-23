@@ -46,9 +46,36 @@ ul li a{
     color: white;
 }
 
+.tiny {
+    font-size: 15px;
+    font-weight: 1;
+}
+
+.casual-wear {
+    top: 20%;
+    left: 10%;
+    padding: 1rem;
+    flex-direction: column;
+}
+
 .hide {
     display: none;
 }
+
+.siste-side {
+    color: black;
+    display: grid;
+    padding: 1rem 0rem;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.produkt-tabell{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
 
 main {
     grid-area: main;
@@ -63,21 +90,24 @@ main {
     display: none;
 }
 
-section{
+.section1 {
+    display: grid;
     background-color: black;
     border-radius: 10px;
     padding: 1rem;
     top: 50%;
-    left: 50%;
+    align-items: center;
+    color: white;
+    left: 42%;
 }
 
-section h1 {
+.section2 {
     color: white;
     text-align: center;
     font-size: 4rem;
 }
 
-section h2 {
+.section3 {
     color: white;
     text-align: center;
     font-size: 4rem;
@@ -112,11 +142,11 @@ footer {
     .navigasjon {
         display: flex;
         gap: 30px;
-}
+    }
 
     #mobil-bilde {
         display: none;
-}
+    }
 
     #mobil-bilde2 {
         display: none;
@@ -126,21 +156,22 @@ footer {
         display: block;
     }
 
-    section {
+    .section1 {
         position: absolute;
         top: 35%;
         left: 42%;
         background-color: transparent;
+
     }
 
-    section h1 {
+    .section2 {
         color: black;
         padding: 0;
         margin: 0;
-        
+
     }
 
-    section h2 {
+    .section3 {
         color: black;
         padding: 0;
         margin: 0;
@@ -150,6 +181,11 @@ footer {
         display: flex;
         justify-content: space-between;
         padding: 1rem;
+    }
+
+    .produkt-tabell {
+        display: flex;
+        justify-content: space-between;
     }
 
 }
