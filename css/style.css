@@ -70,6 +70,38 @@ ul li a{
     font-size: 25px;
 }
 
+.first-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.add-to-cart{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 80%;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.favorite{
+    background-color: grey;
+    color: black;
+    padding: 1rem;
+    width: 80%;
+    text-align: center;
+    border-radius: 35px;
+}
+
 .produkt-tabell{
     display: flex;
     flex-wrap: wrap;
@@ -186,6 +218,22 @@ footer {
     .produkt-tabell {
         display: flex;
         justify-content: space-between;
+    }
+
+    .first-grid {
+        display: flex;
+        margin: 1rem 40rem;
+        flex-direction: row;
+    }
+
+    .add-to-cart, .favorite{
+        display: grid;
+        width: 40%;
+        color: white;
+    }
+
+    .grid{
+        display: grid;
     }
 
 }
